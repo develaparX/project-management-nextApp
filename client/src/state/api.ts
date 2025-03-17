@@ -57,7 +57,7 @@ export interface Task {
     author?: User,
     assignee?: User,
     comments?: Comment[],
-    attacments?: Attachment[]
+    attachments?: Attachment[]
 }
 
 export const api = createApi({
