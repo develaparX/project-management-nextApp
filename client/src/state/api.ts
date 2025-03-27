@@ -17,10 +17,10 @@ export enum Priority {
 }
 
 export enum Status {
-    toDo = "To Do",
+    ToDo = "To Do",
     WorkInProgress = "Work In Progress",
     UnderReview = "Under Review",
-    Completed = "Completed"
+    Completed = "Completed",
 }
 
 export interface User {

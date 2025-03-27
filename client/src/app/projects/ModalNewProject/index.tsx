@@ -21,11 +21,9 @@ const ModalNewProject = ({ isOpen, onClose }: Props) => {
     const formattedStartDate = formatISO(new Date(startDate), {
       representation: "complete",
     });
-    console.log(formattedStartDate);
     const formattedEndDate = formatISO(new Date(endDate), {
       representation: "complete",
     });
-    console.log(formattedEndDate);
 
     await createProject({
       name: projectName,
