@@ -31,7 +31,7 @@ const ModalNewTask = ({ isOpen, onClose, id = null }: Props) => {
       representation: "complete",
     });
 
-    console.log(status);
+    console.log(String(status));
 
     await createTask({
       title,
