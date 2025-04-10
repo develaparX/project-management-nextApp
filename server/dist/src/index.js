@@ -31,7 +31,7 @@ app.get("/", (req, res) => {
 app.use("/projects", projectRoutes_1.default);
 app.use("/tasks", taskRoutes_1.default);
 app.use("/search", searchRoutes_1.default);
-app.use("/user", userRoutes_1.default);
+app.use("/users", userRoutes_1.default);
 // SERVER
 const port = process.env.PORT || 4000;
 app.listen(port, () => {

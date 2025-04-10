@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
 app.use("/projects", projectRoutes)
 app.use("/tasks", taskRoutes)
 app.use("/search", searchRoutes)
-app.use("/user", userRoutes)
+app.use("/users", userRoutes)
 
 // SERVER
 const port = process.env.PORT || 4000
